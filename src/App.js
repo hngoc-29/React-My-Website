@@ -9,7 +9,7 @@ function App() {
             setValue([...value, e.className])
             
         }else {
-            
+            console.log('lọt')
         }
         
     }
