@@ -1,8 +1,9 @@
 import Checkbox from './components/Checkbox'
+import Todolist from './components/Todolist'
 function App() {
   return(
     <div>
-<Checkbox></Checkbox>
+<Todolist />
     </div>
   )
 }
