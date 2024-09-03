@@ -1,9 +1,10 @@
 import Checkbox from './components/Checkbox'
 import Todolist from './components/Todolist'
+import Todolist2 from './components/Todolist2'
 function App() {
-  return(
+  return (
     <div>
-<Todolist />
+      <Todolist2 />
     </div>
   )
 }
