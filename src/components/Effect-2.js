@@ -1,6 +1,4 @@
-
 import { useState, useEffect } from 'react'
-
 const Effect2 = () => {
     const [showGoToTop, setShowGoToTop] = useState(false)
     const [comments, setComments] = useState([])
@@ -32,18 +30,6 @@ const Effect2 = () => {
         console.log('addEvent');
         
         window.addEventListener('scroll', handleScroll)
-
-
-
-
-
-
-
-
-
-
-
-
 //clean function
 //sẽ được thực thi trước khi element unmounted
 return () => {
@@ -52,9 +38,6 @@ console.log('removeEvent')
     window.removeEventListener('scroll', handleScroll)
 }
     }, [])
-
-
-
     const handleGoTop = () => {
         window.scrollTo({top: 0,behavior: "smooth"})
     }
