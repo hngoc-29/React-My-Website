@@ -1,5 +1,11 @@
 import { useState, useEffect } from 'react'
-
+/*
+- Cập nhật lại state
+- Cập nhật DOM (mutated)
+- Render lại UI
+- Gọi cleanup nếu dependency thay đổi
+- Gọi useEffect callback
+*/
 function Effect() {
     const [title, setTitle] = useState('')
     const [page, setPage] = useState('posts')
