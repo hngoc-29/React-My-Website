@@ -4,6 +4,7 @@ import Effect2 from './components/Effect-2'
 import Todolist from './components/Todolist'
 import Todolist2 from './components/Todolist2'
 import Ref from './components/Ref'
+import TodoReducer from './components/TodoReducer'
 import { useState } from 'react'
 function App() {
   const [hien, setHien] = useState(false)
@@ -16,7 +17,7 @@ function App() {
     </div>
 */
     <div>
-      <Ref />
+      <TodoReducer />
     </div>
   )
 }
