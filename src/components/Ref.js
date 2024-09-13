@@ -16,7 +16,6 @@ return (
     <>
         <h2>Giá trị hiện tại: {count}</h2>
         <h2>Giá trị trước đó: {count2.current}</h2>
-        
     </>
 )
 }
